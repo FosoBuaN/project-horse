@@ -9,7 +9,7 @@ var is_dead: bool = false
 var skills: Array = []
 
 # Animation and visuals
-@onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var sprite: Sprite2D = $Sprite2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 
 
