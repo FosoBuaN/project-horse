@@ -1,5 +1,5 @@
 class_name PreviewArrow
-extends Node2D   # <-- IMPORTANT: script must extend Node2D even if root is Line2D
+extends Node2D  
 
 @onready var outline : Line2D = $OutlineLine
 @onready var main    : Line2D = $MainLine
